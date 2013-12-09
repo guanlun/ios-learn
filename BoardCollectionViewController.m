@@ -91,10 +91,25 @@
     
     NSDictionary *boardData = [boardsData objectAtIndex:indexPath.row];
 
-    BoardViewCell *cell = (BoardViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"BoardViewCell" forIndexPath:indexPath];
+    BoardViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"BoardViewCell" forIndexPath:indexPath];
     
     cell.backgroundColor = [UIColor whiteColor];
+    cell.boardNameLabel.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
     cell.boardNameLabel.text = [[boardData objectForKey:@"board"] objectForKey:@"name"];
+    
+    /*
+    NSMutableString *picURL;
+    [picURL appendString:@"http://postiles.com:8000/"];
+    
+    [picURL appendString:[[boardData objectForKey:@"board"] objectForKey:@"image_url"]];
+    */
+    
+    NSString *imageURL = @"http://postiles.com:8000/";
+    imageURL = [imageURL stringByAppendingString:[[boardData objectForKey:@"board"] objectForKey:@"image_url"]];
+    NSLog(imageURL);
+    
+    UIImage *boardImg = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]]];
+    [cell.boardImage setImage:boardImg];
     
     return cell;
     

@@ -10,5 +10,6 @@
 
 @interface BoardViewCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UILabel *boardNameLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *boardImage;
 
 @end
