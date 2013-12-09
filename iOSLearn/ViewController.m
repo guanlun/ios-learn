@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "TopicListViewController.h"
+#import "BoardCollectionViewController.h"
 #import "Classes/SBJsonParser.h"
 #import "PostileHttpHandler.h"
 
@@ -48,7 +48,7 @@
     NSDictionary *data = [PostileHttpHandler sendRequestToURL:url WithData:postDict];
     
     if ([[data objectForKey:@"status"] isEqualToString:@"ok"]) {
-        TopicListViewController *second = [self.storyboard instantiateViewControllerWithIdentifier:@"TopicListViewController"];
+        BoardCollectionViewController *second = [self.storyboard instantiateViewControllerWithIdentifier:@"BoardCollectionViewController"];
         [self.navigationController pushViewController:second animated:YES];
     } else {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Login Failed"

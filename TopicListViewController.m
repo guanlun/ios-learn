@@ -9,6 +9,7 @@
 #import "TopicListViewController.h"
 #import "PostileHttpHandler.h"
 #import "TopicListCell.h"
+#import "BoardDataDisplayViewController.h"
 
 @interface TopicListViewController ()
 
@@ -106,6 +107,14 @@
 {
     return 160;
 }
+	
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    BoardDataDisplayViewController *displayViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"BoardDataDisplayViewController"];
+    displayViewController.boardIndex = indexPath.row;
+
+    [self.navigationController pushViewController:displayViewController animated:YES];
+}
 
 /*
 // Override to support conditional editing of the table view.
@@ -146,7 +155,6 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
@@ -154,8 +162,11 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    if ([segue.identifier isEqualToString:@"BoardDataDisplayViewController"]) {
+        BoardDataDisplayViewController *con = (BoardDataDisplayViewController *)segue.destinationViewController;
+        con.boardIndex = [NSNumber numberWithInt:3];
+    }
 }
-
- */
 
 @end

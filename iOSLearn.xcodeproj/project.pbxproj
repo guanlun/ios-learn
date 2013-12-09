@@ -24,6 +24,7 @@
 		2E5C9E7B1844D646001EF173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E5C9E791844D646001EF173 /* InfoPlist.strings */; };
 		2E5C9E7D1844D646001EF173 /* iOSLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C9E7C1844D646001EF173 /* iOSLearnTests.m */; };
 		2E8DC53D18530AE60069F16C /* TopicCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8DC53C18530AE60069F16C /* TopicCollectionView.m */; };
+		2EBD03ED1855DEE5009505A4 /* BoardViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD03EC1855DEE5009505A4 /* BoardViewCell.m */; };
 		2ECAA71F1852326100921613 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAA7071852326100921613 /* NSObject+SBJson.m */; };
 		2ECAA7201852326100921613 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAA70A1852326100921613 /* SBJsonParser.m */; };
 		2ECAA7211852326100921613 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAA70C1852326100921613 /* SBJsonStreamParser.m */; };
@@ -37,6 +38,8 @@
 		2ECAA7291852326100921613 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAA71C1852326100921613 /* SBJsonUTF8Stream.m */; };
 		2ECAA72A1852326100921613 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAA71E1852326100921613 /* SBJsonWriter.m */; };
 		2ECAA72D18523E5500921613 /* PostileHttpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAA72C18523E5500921613 /* PostileHttpHandler.m */; };
+		2ECE1E3E1853155100FB621D /* BoardDataDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECE1E3D1853155100FB621D /* BoardDataDisplayViewController.m */; };
+		2EE4865C1855D99E00167571 /* BoardCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE4865B1855D99E00167571 /* BoardCollectionViewController.m */; };
 		2EFD9D7D1852C0B7000769B5 /* TopicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD9D7C1852C0B7000769B5 /* TopicListViewController.m */; };
 		2EFD9D7F1852F7EC000769B5 /* TopicListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD9D7E1852F7EC000769B5 /* TopicListCell.xib */; };
 /* End PBXBuildFile section */
@@ -76,6 +79,8 @@
 		2E5C9E7C1844D646001EF173 /* iOSLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLearnTests.m; sourceTree = "<group>"; };
 		2E8DC53B18530AE60069F16C /* TopicCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicCollectionView.h; sourceTree = "<group>"; };
 		2E8DC53C18530AE60069F16C /* TopicCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicCollectionView.m; sourceTree = "<group>"; };
+		2EBD03EB1855DEE5009505A4 /* BoardViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardViewCell.h; sourceTree = "<group>"; };
+		2EBD03EC1855DEE5009505A4 /* BoardViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardViewCell.m; sourceTree = "<group>"; };
 		2ECAA7061852326100921613 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
 		2ECAA7071852326100921613 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
 		2ECAA7081852326100921613 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
@@ -103,6 +108,10 @@
 		2ECAA71E1852326100921613 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		2ECAA72B18523E5500921613 /* PostileHttpHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostileHttpHandler.h; sourceTree = "<group>"; };
 		2ECAA72C18523E5500921613 /* PostileHttpHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostileHttpHandler.m; sourceTree = "<group>"; };
+		2ECE1E3C1853155100FB621D /* BoardDataDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardDataDisplayViewController.h; sourceTree = "<group>"; };
+		2ECE1E3D1853155100FB621D /* BoardDataDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardDataDisplayViewController.m; sourceTree = "<group>"; };
+		2EE4865A1855D99E00167571 /* BoardCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoardCollectionViewController.h; path = ../BoardCollectionViewController.h; sourceTree = "<group>"; };
+		2EE4865B1855D99E00167571 /* BoardCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoardCollectionViewController.m; path = ../BoardCollectionViewController.m; sourceTree = "<group>"; };
 		2EFD9D7B1852C0B7000769B5 /* TopicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicListViewController.h; path = ../TopicListViewController.h; sourceTree = "<group>"; };
 		2EFD9D7C1852C0B7000769B5 /* TopicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicListViewController.m; path = ../TopicListViewController.m; sourceTree = "<group>"; };
 		2EFD9D7E1852F7EC000769B5 /* TopicListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TopicListCell.xib; path = ../TopicListCell.xib; sourceTree = "<group>"; };
@@ -165,6 +174,8 @@
 		2E5C9E541844D646001EF173 /* iOSLearn */ = {
 			isa = PBXGroup;
 			children = (
+				2EE4865A1855D99E00167571 /* BoardCollectionViewController.h */,
+				2EE4865B1855D99E00167571 /* BoardCollectionViewController.m */,
 				2EFD9D7E1852F7EC000769B5 /* TopicListCell.xib */,
 				2E5641AA1852F8D400B53E40 /* TopicListCell.h */,
 				2E5641AB1852F8D400B53E40 /* TopicListCell.m */,
@@ -176,11 +187,15 @@
 				2E5C9E5D1844D646001EF173 /* AppDelegate.h */,
 				2E5C9E5E1844D646001EF173 /* AppDelegate.m */,
 				2E5C9E601844D646001EF173 /* Main_iPhone.storyboard */,
+				2ECE1E3C1853155100FB621D /* BoardDataDisplayViewController.h */,
+				2ECE1E3D1853155100FB621D /* BoardDataDisplayViewController.m */,
 				2E8DC53B18530AE60069F16C /* TopicCollectionView.h */,
 				2E8DC53C18530AE60069F16C /* TopicCollectionView.m */,
 				2E5C9E631844D646001EF173 /* Main_iPad.storyboard */,
 				2E5C9E661844D646001EF173 /* ViewController.h */,
 				2E5C9E671844D646001EF173 /* ViewController.m */,
+				2EBD03EB1855DEE5009505A4 /* BoardViewCell.h */,
+				2EBD03EC1855DEE5009505A4 /* BoardViewCell.m */,
 				2E5C9E691844D646001EF173 /* Images.xcassets */,
 				2E5C9E551844D646001EF173 /* Supporting Files */,
 			);
@@ -347,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE4865C1855D99E00167571 /* BoardCollectionViewController.m in Sources */,
 				2EFD9D7D1852C0B7000769B5 /* TopicListViewController.m in Sources */,
 				2ECAA72A1852326100921613 /* SBJsonWriter.m in Sources */,
 				2ECAA72D18523E5500921613 /* PostileHttpHandler.m in Sources */,
@@ -357,12 +373,14 @@
 				2ECAA7241852326100921613 /* SBJsonStreamParserState.m in Sources */,
 				2ECAA7201852326100921613 /* SBJsonParser.m in Sources */,
 				2ECAA7221852326100921613 /* SBJsonStreamParserAccumulator.m in Sources */,
+				2EBD03ED1855DEE5009505A4 /* BoardViewCell.m in Sources */,
 				2ECAA7271852326100921613 /* SBJsonStreamWriterState.m in Sources */,
 				2E5C9E681844D646001EF173 /* ViewController.m in Sources */,
 				2E5C9E5F1844D646001EF173 /* AppDelegate.m in Sources */,
 				2E8DC53D18530AE60069F16C /* TopicCollectionView.m in Sources */,
 				2ECAA7291852326100921613 /* SBJsonUTF8Stream.m in Sources */,
 				2ECAA7211852326100921613 /* SBJsonStreamParser.m in Sources */,
+				2ECE1E3E1853155100FB621D /* BoardDataDisplayViewController.m in Sources */,
 				2ECAA71F1852326100921613 /* NSObject+SBJson.m in Sources */,
 				2E5C9E5B1844D646001EF173 /* main.m in Sources */,
 				2ECAA7231852326100921613 /* SBJsonStreamParserAdapter.m in Sources */,
